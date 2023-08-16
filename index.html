@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="border-b border-gray-300 py-4 px-4">
+        <div class="container mx-auto flex items-center justify-between relative">
+            <img src="./img/logo.svg" width="291" alt="main-logo" />
+            <img src="./img/header-left-dot-pattern.svg" width="88" class="absolute mr-12 -top-4 right-full" alt="main-logo" />
+            <img src="./img/header-right-shap.svg" width="141" class="absolute left-full top-0 ml-12" alt="main-logo" />
+            <nav>
+                <ul class="flex">
+                    <li>
+                        <a href="#" class="py-2 px-4 transition rounded-md
+                            bg-gradient-to-r border-green-400 bg-gradient-to-br from-purple-500 to-green-400 text-white active:bg-blue-800 active:text-white">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="py-2 px-4 hover:bg-gray-200 transition rounded-md">Feature</a>
+                    </li>
+                    <li>
+                        <a href="#" class="py-2 px-4 hover:bg-gray-200 transition rounded-md">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="py-2 px-4 hover:bg-gray-200 transition rounded-md">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="py-2 px-4 hover:bg-gray-200 transition rounded-md">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="py-2 px-4 transition rounded-md
+                           bg-gradient-to-r from-purple-500 to-indigo-600 text-white">
+                            Free Signup
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
