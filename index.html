@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
     <script>
         tailwind.config = {
             theme: {
@@ -52,13 +61,22 @@
             </nav>
         </div>
     </header>
-    <section class="hero px-24 py-4">
-        <div class="container mx-auto flex items-center justify-between relative">
-            <h1 class="text-6xl font-medium relative
+    <section class="hero px-24 py-24">
+        <div class="container mx-auto">
+            <h1 class="text-[72px] font-normal relative
                 text-transparent bg-clip-text bg-gradient-to-r
-                from-green-400 to-purple-400 inline-block text-center">
+                from-[#3ED6BB] from-13% to-[#785DFC] to-100% text-center ">
                 <strong class="font-bold">AI</strong> to write code, blogs & more
             </h1>
+            <p class="text-[24px] font-normal text-center text-[#646977] max-w-3xl mx-auto mt-10 leading-normal">
+                Enhance everything you do by using the latest from OpenAI to solve problems, write solutions and make life easier.
+            </p>
+            <div class="grid place-content-center">
+                <a href="#" class="px-[73px] py-[20px] mt-5 text-[25px] font-medium transition rounded-[19px] leading-normal
+                           bg-gradient-to-r from-[#2AC4A0] to-[#6C77EF] text-white">
+                    Get Started
+                </a>
+            </div>
         </div>
     </section>
 </body>
